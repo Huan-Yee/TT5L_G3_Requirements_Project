@@ -19,7 +19,7 @@ Task 5: SRS
 This document is SRS of the project that talks about product functions, requirements, purpose, scope, user characteristics, and more.
 
 Members and their responsibilities:
-1) Lim Huan Yee (ID) ->
+1) Lim Huan Yee (241UC240BH) ->
 2) Yeow Beng Chuan (1211108871) ->
 3) Mohanad Hassan Fathy Abdelatty (241UC240QH) ->
 4) Wong Yi Shan (1221102684) ->
