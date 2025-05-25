@@ -12,7 +12,7 @@ This document is about Elicitation Plan that includes Brainstorming, Mind Mappin
 
 
 Task 4: Elicitation Session & Requirements Classification
-This document is about Elicitation Session for Brainstorming, Mind Mapping, and questionnaire. And also about Classification of Requirements Using Kano Model 
+This document is about Elicitation Session for Brainstorming and questionnaire. And also about Classification of Requirements Using Kano Model 
 
 
 Task 5: SRS
