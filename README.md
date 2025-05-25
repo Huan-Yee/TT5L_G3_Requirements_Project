@@ -20,6 +20,6 @@ This document is SRS of the project that talks about product functions, requirem
 
 Members and their responsibilities:
 1) Lim Huan Yee (ID) ->
-2) Yeow Beng Chuan (ID) ->
+2) Yeow Beng Chuan (1211108871) ->
 3) Mohanad Hassan Fathy Abdelatty (241UC240QH) ->
-4) Wong Yi Shan (ID) ->
+4) Wong Yi Shan (1221102684) ->
