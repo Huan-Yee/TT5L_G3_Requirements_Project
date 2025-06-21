@@ -1,20 +1,60 @@
+> <img src="media/image1.png" style="width:4.3185in;height:1.24131in"
+> alt="D:\Google Drive\_desktop\Saya\MMU-New-logow.fw_.png" />
+>
 > CSE 6334 Software Requirements Engineering
 >
 > Project Part 1: SRS
 >
 > Group :7
 
-+-----------------------------------+-----------------------------------+
-| Name                              | > Student ID                      |
-+===================================+:=================================:+
-| > Akid Syazwan bin Nor Azman Shah | > 1211111238                      |
-+-----------------------------------+-----------------------------------+
-| > Teng Chay Xuan                  | > 1231300802                      |
-+-----------------------------------+-----------------------------------+
-| > Kishen Kumar A/L Kumaran        | > 1211111528                      |
-+-----------------------------------+-----------------------------------+
-| > Shannon Fernandez               | > 1211106748                      |
-+-----------------------------------+-----------------------------------+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;">Name</th>
+<th style="text-align: center;"><blockquote>
+<p>Student ID</p>
+</blockquote></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><blockquote>
+<p>Akid Syazwan bin Nor Azman Shah</p>
+</blockquote></td>
+<td style="text-align: center;"><blockquote>
+<p>1211111238</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>Teng Chay Xuan</p>
+</blockquote></td>
+<td style="text-align: center;"><blockquote>
+<p>1231300802</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>Kishen Kumar A/L Kumaran</p>
+</blockquote></td>
+<td style="text-align: center;"><blockquote>
+<p>1211111528</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>Shannon Fernandez</p>
+</blockquote></td>
+<td style="text-align: center;"><blockquote>
+<p>1211106748</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 [1. Introduction [2](#introduction)](#introduction)
 
@@ -24,27 +64,34 @@
 
 [1.3. Product overview [2](#product-overview)](#product-overview)
 
-[1.3.1. Product perspective [2](#product-perspective)](#product-perspective)
+[1.3.1. Product perspective
+[2](#product-perspective)](#product-perspective)
 
 [1.3.2. System Interfaces [3](#system-interfaces)](#system-interfaces)
 
 [1.3.2.1. User Interfaces [4](#user-interfaces)](#user-interfaces)
 
-[1.3.2.2. Hardware Interfaces [4](#hardware-interfaces)](#hardware-interfaces)
+[1.3.2.2. Hardware Interfaces
+[4](#hardware-interfaces)](#hardware-interfaces)
 
-[1.3.2.3. Software Interfaces [5](#software-interfaces)](#software-interfaces)
+[1.3.2.3. Software Interfaces
+[5](#software-interfaces)](#software-interfaces)
 
-[1.3.2.4. Communications Interfaces [5](#communications-interfaces)](#communications-interfaces)
+[1.3.2.4. Communications Interfaces
+[5](#communications-interfaces)](#communications-interfaces)
 
-[1.3.2.5. Memory Constraints [6](#memory-constraints)](#memory-constraints)
+[1.3.2.5. Memory Constraints
+[6](#memory-constraints)](#memory-constraints)
 
 [1.3.2.6. Operations [6](#operations)](#operations)
 
-[1.3.2.7. Site Adaptation Requirements [7](#site-adaptation-requirements)](#site-adaptation-requirements)
+[1.3.2.7. Site Adaptation Requirements
+[7](#site-adaptation-requirements)](#site-adaptation-requirements)
 
 [1.3.3. Product function [8](#product-function)](#product-function)
 
-[1.3.4. User characteristics [9](#user-characteristics)](#user-characteristics)
+[1.3.4. User characteristics
+[9](#user-characteristics)](#user-characteristics)
 
 [1.3.5. Limitations [10](#limitations)](#limitations)
 
@@ -56,57 +103,80 @@
 
 [3.1. Functions [12](#functions)](#functions)
 
-[3.1.1. Functions Activity/Sequence Diagrams [14](#functions-activitysequence-diagrams)](#functions-activitysequence-diagrams)
+[3.1.1. Functions Activity/Sequence Diagrams
+[14](#functions-activitysequence-diagrams)](#functions-activitysequence-diagrams)
 
-[3.1.1.1. Login Activity Diagram [14](#login-activity-diagram)](#login-activity-diagram)
+[3.1.1.1. Login Activity Diagram
+[14](#login-activity-diagram)](#login-activity-diagram)
 
-[3.1.1.2. Register to System Activity Diagram [14](#register-to-system-activity-diagram)](#register-to-system-activity-diagram)
+[3.1.1.2. Register to System Activity Diagram
+[14](#register-to-system-activity-diagram)](#register-to-system-activity-diagram)
 
-[3.1.1.3. Join Cub Activity Diagram [15](#join-cub-activity-diagram)](#join-cub-activity-diagram)
+[3.1.1.3. Join Cub Activity Diagram
+[15](#join-cub-activity-diagram)](#join-cub-activity-diagram)
 
-[3.1.1.4. View Upcoming Events Activity Diagram [15](#view-upcoming-events-activity-diagram)](#view-upcoming-events-activity-diagram)
+[3.1.1.4. View Upcoming Events Activity Diagram
+[15](#view-upcoming-events-activity-diagram)](#view-upcoming-events-activity-diagram)
 
-[3.1.1.5. RSVP for Events Activity Diagram [16](#rsvp-for-events-activity-diagram)](#rsvp-for-events-activity-diagram)
+[3.1.1.5. RSVP for Events Activity Diagram
+[16](#rsvp-for-events-activity-diagram)](#rsvp-for-events-activity-diagram)
 
-[3.1.1.6. Manage Club Members Activity Diagram [16](#manage-club-members-activity-diagram)](#manage-club-members-activity-diagram)
+[3.1.1.6. Manage Club Members Activity Diagram
+[16](#manage-club-members-activity-diagram)](#manage-club-members-activity-diagram)
 
-[3.1.1.7. Create Event Proposal Sequence Diagram [17](#create-event-proposal-sequence-diagram)](#create-event-proposal-sequence-diagram)
+[3.1.1.7. Create Event Proposal Sequence Diagram
+[17](#create-event-proposal-sequence-diagram)](#create-event-proposal-sequence-diagram)
 
-[3.1.1.8. Submit Budget Proposal Activity Diagram [17](#submit-budget-proposal-activity-diagram)](#submit-budget-proposal-activity-diagram)
+[3.1.1.8. Submit Budget Proposal Activity Diagram
+[17](#submit-budget-proposal-activity-diagram)](#submit-budget-proposal-activity-diagram)
 
-[3.1.1.9. Submit Venue Booking Proposal Activity Diagram [18](#submit-venue-booking-proposal-activity-diagram)](#submit-venue-booking-proposal-activity-diagram)
+[3.1.1.9. Submit Venue Booking Proposal Activity Diagram
+[18](#submit-venue-booking-proposal-activity-diagram)](#submit-venue-booking-proposal-activity-diagram)
 
-[3.1.1.10. Cancel Event Sequence Diagram [18](#cancel-event-sequence-diagram)](#cancel-event-sequence-diagram)
+[3.1.1.10. Cancel Event Sequence Diagram
+[18](#cancel-event-sequence-diagram)](#cancel-event-sequence-diagram)
 
-[3.1.1.11. View RSVP for Event Activity Diagram [19](#view-rsvp-for-event-activity-diagram)](#view-rsvp-for-event-activity-diagram)
+[3.1.1.11. View RSVP for Event Activity Diagram
+[19](#view-rsvp-for-event-activity-diagram)](#view-rsvp-for-event-activity-diagram)
 
-[3.1.1.12. Submit Event Report Activity Diagram [19](#submit-event-report-activity-diagram)](#submit-event-report-activity-diagram)
+[3.1.1.12. Submit Event Report Activity Diagram
+[19](#submit-event-report-activity-diagram)](#submit-event-report-activity-diagram)
 
-[3.1.1.13. Monitor Club and Event Activity Activity Diagram [20](#monitor-club-and-event-activity-activity-diagram)](#monitor-club-and-event-activity-activity-diagram)
+[3.1.1.13. Monitor Club and Event Activity Activity Diagram
+[20](#monitor-club-and-event-activity-activity-diagram)](#monitor-club-and-event-activity-activity-diagram)
 
-[3.1.1.14. Generate Report Activity Diagram [21](#generate-report-activity-diagram)](#generate-report-activity-diagram)
+[3.1.1.14. Generate Report Activity Diagram
+[21](#generate-report-activity-diagram)](#generate-report-activity-diagram)
 
-[3.2. Performance requirements [22](#performance-requirements)](#performance-requirements)
+[3.2. Performance requirements
+[22](#performance-requirements)](#performance-requirements)
 
-[3.3. Usability requirements [22](#usability-requirements)](#usability-requirements)
+[3.3. Usability requirements
+[22](#usability-requirements)](#usability-requirements)
 
-[3.4. Interface requirements [23](#interface-requirements)](#interface-requirements)
+[3.4. Interface requirements
+[23](#interface-requirements)](#interface-requirements)
 
 [3.4.1. System interface [23](#system-interface)](#system-interface)
 
 [3.4.2. User interface [23](#user-interface)](#user-interface)
 
-[3.4.3. Hardware interface [24](#hardware-interface)](#hardware-interface)
+[3.4.3. Hardware interface
+[24](#hardware-interface)](#hardware-interface)
 
-[3.4.4. Software interface [24](#software-interface)](#software-interface)
+[3.4.4. Software interface
+[24](#software-interface)](#software-interface)
 
-[3.4.5. Communication interface [25](#communication-interface)](#communication-interface)
+[3.4.5. Communication interface
+[25](#communication-interface)](#communication-interface)
 
-[3.5. Logical database requirements [25](#logical-database-requirements)](#logical-database-requirements)
+[3.5. Logical database requirements
+[25](#logical-database-requirements)](#logical-database-requirements)
 
 [3.6. Design constraint [26](#design-constraint)](#design-constraint)
 
-[3.7. Software system attributes [27](#software-system-attributes)](#software-system-attributes)
+[3.7. Software system attributes
+[27](#software-system-attributes)](#software-system-attributes)
 
 [3.7.1. Reliability [28](#reliability)](#reliability)
 
@@ -118,55 +188,89 @@
 
 [3.7.5. Portability [29](#portability)](#portability)
 
-[3.8. Supporting information [29](#supporting-information)](#supporting-information)
+[3.8. Supporting information
+[29](#supporting-information)](#supporting-information)
 
-[3.8.1. Sample Input/Output Formats [29](#sample-inputoutput-formats)](#sample-inputoutput-formats)
+[3.8.1. Sample Input/Output Formats
+[29](#sample-inputoutput-formats)](#sample-inputoutput-formats)
 
-[3.8.2. Supporting or Background Information [30](#supporting-or-background-information)](#supporting-or-background-information)
+[3.8.2. Supporting or Background Information
+[30](#supporting-or-background-information)](#supporting-or-background-information)
 
-[3.8.3. Problem Statement (What the Software Solves) [30](#problem-statement-what-the-software-solves)](#problem-statement-what-the-software-solves)
+[3.8.3. Problem Statement (What the Software Solves)
+[30](#problem-statement-what-the-software-solves)](#problem-statement-what-the-software-solves)
 
 [4. Verification [31](#verification)](#verification)
 
-[4.1. Verification approach. [31](#verification-approach.)](#verification-approach.)
+[4.1. Verification approach.
+[31](#verification-approach.)](#verification-approach.)
 
-[4.2. Verification criteria [32](#verification-criteria)](#verification-criteria)
+[4.2. Verification criteria
+[32](#verification-criteria)](#verification-criteria)
 
-[4.2.1. Unit Testing Verification Criteria [32](#unit-testing-verification-criteria)](#unit-testing-verification-criteria)
+[4.2.1. Unit Testing Verification Criteria
+[32](#unit-testing-verification-criteria)](#unit-testing-verification-criteria)
 
-[4.2.2. Integration testing verification criteria [33](#integration-testing-verification-criteria)](#integration-testing-verification-criteria)
+[4.2.2. Integration testing verification criteria
+[33](#integration-testing-verification-criteria)](#integration-testing-verification-criteria)
 
-[4.2.3. Functional testing verification criteria [34](#functional-testing-verification-criteria)](#functional-testing-verification-criteria)
+[4.2.3. Functional testing verification criteria
+[34](#functional-testing-verification-criteria)](#functional-testing-verification-criteria)
 
-[4.2.4. User acceptance testing verification criteria [35](#user-acceptance-testing-verification-criteria)](#user-acceptance-testing-verification-criteria)
+[4.2.4. User acceptance testing verification criteria
+[35](#user-acceptance-testing-verification-criteria)](#user-acceptance-testing-verification-criteria)
 
-[4.2.5. Performance verification criteria [36](#performance-verification-criteria)](#performance-verification-criteria)
+[4.2.5. Performance verification criteria
+[36](#performance-verification-criteria)](#performance-verification-criteria)
 
-[4.2.6. Usability verification criteria [37](#usability-verification-criteria)](#usability-verification-criteria)
+[4.2.6. Usability verification criteria
+[37](#usability-verification-criteria)](#usability-verification-criteria)
 
 [5. Appendices [37](#appendices)](#appendices)
 
-[5.1. Assumptions and Dependencies [37](#assumptions-and-dependencies)](#assumptions-and-dependencies)
+[5.1. Assumptions and Dependencies
+[37](#assumptions-and-dependencies)](#assumptions-and-dependencies)
 
 #  Introduction
 
 ## Purpose
 
-The purpose of this document is to define the software requirements for the Student Club Management System. This document outlines the intended functionality, user interfaces, constraints, and system interactions for developers, testers, and stakeholders.
+The purpose of this document is to define the software requirements for
+the Student Club Management System. This document outlines the intended
+functionality, user interfaces, constraints, and system interactions for
+developers, testers, and stakeholders.
 
 ## Scope
 
-The Student Club Management System will serve as a centralized digital platform that facilitates the administration of student clubs, allowing for effective member management, event coordination, financial tracking, and venue booking. It aims to increase efficiency, transparency, and accessibility for students and university administrators.
+The Student Club Management System will serve as a centralized digital
+platform that facilitates the administration of student clubs, allowing
+for effective member management, event coordination, financial tracking,
+and venue booking. It aims to increase efficiency, transparency, and
+accessibility for students and university administrators.
 
 ## Product overview
 
-> The Student Club Management System (CMS) with Budget and Venue integration is designed to serve as a centralized platform for managing the various activities of student club within the university. The aim of this system is to make necessary task like club membership registration, event planning, budget submission and approval and venue booking more efficient. The platform will also integrate with the university space reservation and finance management system to facilitate easier departmental cooperation
+> The Student Club Management System (CMS) with Budget and Venue
+> integration is designed to serve as a centralized platform for
+> managing the various activities of student club within the university.
+> The aim of this system is to make necessary task like club membership
+> registration, event planning, budget submission and approval and venue
+> booking more efficient. The platform will also integrate with the
+> university space reservation and finance management system to
+> facilitate easier departmental cooperation
 
 ### Product perspective
 
-The Club Management System (CMS) is a web-based solution that function as a centralized platform for overseeing student club activities at the university. It aims to facilitate smooth communication among different parties including student, club committee, external system like financial and venue system. This system is a part of the university ecosystem and connect with the institutional platform to enhance administrative workflows and enrich user experience. Figure 1.3.1 below show the context diagram of the system.
+The Club Management System (CMS) is a web-based solution that function
+as a centralized platform for overseeing student club activities at the
+university. It aims to facilitate smooth communication among different
+parties including student, club committee, external system like
+financial and venue system. This system is a part of the university
+ecosystem and connect with the institutional platform to enhance
+administrative workflows and enrich user experience. Figure 1.3.1 below
+show the context diagram of the system.
 
-> ![](media/image2.png){width="5.406248906386701in" height="3.0854297900262466in"}
+> <img src="media/image2.png" style="width:5.40625in;height:3.08543in" />
 >
 > *Figure 1.3.1 CMS context diagram*
 
@@ -174,77 +278,208 @@ The Club Management System (CMS) is a web-based solution that function as a cent
 
 > External Systems and Interactions:
 
-  ----------------------------------------------------------------------------------------------------------
-  **System**                        **Functionality**
-  --------------------------------- ------------------------------------------------------------------------
-  University Financial System       Submit and retrieve status of budget proposals.
-
-  Venue Booking System              Submit venue booking requests and get confirmation or denial.
-
-  University Authentication         Authenticate users and assign roles (e.g., student, committee, admin).
-  ----------------------------------------------------------------------------------------------------------
+| **System** | **Functionality** |
+|:---|:---|
+| University Financial System | Submit and retrieve status of budget proposals. |
+| Venue Booking System | Submit venue booking requests and get confirmation or denial. |
+| University Authentication | Authenticate users and assign roles (e.g., student, committee, admin). |
 
 ### 
 
 #### User Interfaces
 
-> The Student Club Management System will include intuitive user interfaces customized by role:
+> The Student Club Management System will include intuitive user
+> interfaces customized by role:
 
-+--------------------+-------------------------------------------------------------------------------------+
-| > **User Role**    | > **Interface Description**                                                         |
-+:===================+:====================================================================================+
-| > Club Member      | > Dashboard to register for clubs, view events, and RSVP.                           |
-+--------------------+-------------------------------------------------------------------------------------+
-| > Club Committee   | > Panel for managing members, submitting proposals, and tracking events.            |
-+--------------------+-------------------------------------------------------------------------------------+
-| > Administrator    | > Admin portal for monitoring activity, generating reports, and approving requests. |
-+--------------------+-------------------------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 70%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;"><blockquote>
+<p><strong>User Role</strong></p>
+</blockquote></th>
+<th style="text-align: left;"><blockquote>
+<p><strong>Interface Description</strong></p>
+</blockquote></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><blockquote>
+<p>Club Member</p>
+</blockquote></td>
+<td style="text-align: left;"><blockquote>
+<p>Dashboard to register for clubs, view events, and RSVP.</p>
+</blockquote></td>
+</tr>
+<tr>
+<td style="text-align: left;"><blockquote>
+<p>Club Committee</p>
+</blockquote></td>
+<td style="text-align: left;"><blockquote>
+<p>Panel for managing members, submitting proposals, and tracking
+events.</p>
+</blockquote></td>
+</tr>
+<tr>
+<td style="text-align: left;"><blockquote>
+<p>Administrator</p>
+</blockquote></td>
+<td style="text-align: left;"><blockquote>
+<p>Admin portal for monitoring activity, generating reports, and
+approving requests.</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 > **UI Characteristics:**
 
-- Mobile-responsive design making it easy for students to access on the go.
+- Mobile-responsive design making it easy for students to access on the
+  go.
 
-- Compliant with the university's digital accessibility and branding standards.
+- Compliant with the university’s digital accessibility and branding
+  standards.
 
-- Easy navigation with a top menu, dashboard tiles, and modal forms for quick interactions.
+- Easy navigation with a top menu, dashboard tiles, and modal forms for
+  quick interactions.
 
 #### Hardware Interfaces
 
-> The Student Club Management System will run on cloud infrastructure and does **not** directly interface with hardware devices. However, it must be compatible with:
+> The Student Club Management System will run on cloud infrastructure
+> and does **not** directly interface with hardware devices. However, it
+> must be compatible with:
 
-+--------------------------------+----------------------------------------------------------------+
-| > **Hardware Type**            | > **Requirement**                                              |
-+================================+================================================================+
-| > Desktop / Laptop             | > Browsers: Chrome, Firefox, Safari, Edge (latest 2 versions). |
-+--------------------------------+----------------------------------------------------------------+
-| > Mobile Devices (iOS/Android) | > Responsive UI must work on all screen sizes                  |
-+--------------------------------+----------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 70%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;"><blockquote>
+<p><strong>Hardware Type</strong></p>
+</blockquote></th>
+<th style="text-align: left;"><blockquote>
+<p><strong>Requirement</strong></p>
+</blockquote></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><blockquote>
+<p>Desktop / Laptop</p>
+</blockquote></td>
+<td><blockquote>
+<p>Browsers: Chrome, Firefox, Safari, Edge (latest 2 versions).</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>Mobile Devices (iOS/Android)</p>
+</blockquote></td>
+<td><blockquote>
+<p>Responsive UI must work on all screen sizes</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 #### Software Interfaces
 
-> The Student Club Management System requires integration with the following external and internal software systems:
+> The Student Club Management System requires integration with the
+> following external and internal software systems:
 
-+-------------------------------+----------------------------------------------------+--------------------------+
-| > **Software Product**        | > **Purpose**                                      | > **Source**             |
-+===============================+====================================================+==========================+
-| > University Financial System | > Budget request processing and approval workflows | > Finance Department     |
-+-------------------------------+----------------------------------------------------+--------------------------+
-| > Venue Booking System        | > Room reservation and calendar sync               | > Campus Facilities Unit |
-+-------------------------------+----------------------------------------------------+--------------------------+
-| > University Login System     | > Secure login and session management              | > IT Department          |
-+-------------------------------+----------------------------------------------------+--------------------------+
-| > PostgreSQL Database         | > Backend data persistence                         | > Open Source            |
-+-------------------------------+----------------------------------------------------+--------------------------+
-| > Node.js (Backend Runtime)   | > Server-side logic                                | > Open Source            |
-+-------------------------------+----------------------------------------------------+--------------------------+
+<table>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 48%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr>
+<th><blockquote>
+<p><strong>Software Product</strong></p>
+</blockquote></th>
+<th><blockquote>
+<p><strong>Purpose</strong></p>
+</blockquote></th>
+<th><blockquote>
+<p><strong>Source</strong></p>
+</blockquote></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><blockquote>
+<p>University Financial System</p>
+</blockquote></td>
+<td><blockquote>
+<p>Budget request processing and approval workflows</p>
+</blockquote></td>
+<td><blockquote>
+<p>Finance Department</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>Venue Booking System</p>
+</blockquote></td>
+<td><blockquote>
+<p>Room reservation and calendar sync</p>
+</blockquote></td>
+<td><blockquote>
+<p>Campus Facilities Unit</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>University Login System</p>
+</blockquote></td>
+<td><blockquote>
+<p>Secure login and session management</p>
+</blockquote></td>
+<td><blockquote>
+<p>IT Department</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>PostgreSQL Database</p>
+</blockquote></td>
+<td><blockquote>
+<p>Backend data persistence</p>
+</blockquote></td>
+<td><blockquote>
+<p>Open Source</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>Node.js (Backend Runtime)</p>
+</blockquote></td>
+<td><blockquote>
+<p>Server-side logic</p>
+</blockquote></td>
+<td><blockquote>
+<p>Open Source</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
 
 #### Communications Interfaces
 
-> The Student Club Management System will utilize the following communication interfaces:
+> The Student Club Management System will utilize the following
+> communication interfaces:
 
 - **Protocol**: HTTPS over TLS 1.3
 
-- **Internal Communication**: REST APIs between frontend and backend components
+- **Internal Communication**: REST APIs between frontend and backend
+  components
 
 - **External Communication**:
 
@@ -254,7 +489,9 @@ The Club Management System (CMS) is a web-based solution that function as a cent
 
   - **Venue Reservation System** via authenticated REST API
 
-- **Email Notifications**: SMTP protocol with university mail server (student.mmu.edu.my) for alerts and confirmations (event approval, RSVP status)
+- **Email Notifications**: SMTP protocol with university mail server
+  (student.mmu.edu.my) for alerts and confirmations (event approval,
+  RSVP status)
 
 > **Security Notes**:
 
@@ -264,7 +501,8 @@ The Club Management System (CMS) is a web-based solution that function as a cent
 
 #### Memory Constraints
 
-> The Student Club Management System will adhere to the following memory constraints:
+> The Student Club Management System will adhere to the following memory
+> constraints:
 
 - **Primary Memory (RAM)**:
 
@@ -280,11 +518,14 @@ The Club Management System (CMS) is a web-based solution that function as a cent
 
 - **Database**:
 
-  - PostgreSQL data volume expected to grow with number of clubs and members. This will require periodic archiving to be implemented in the system.
+  - PostgreSQL data volume expected to grow with number of clubs and
+    members. This will require periodic archiving to be implemented in
+    the system.
 
 #### Operations
 
-> The Student Club Management System is designed to support both **interactive** and **automated** operations, including:
+> The Student Club Management System is designed to support both
+> **interactive** and **automated** operations, including:
 >
 > **a) Modes of Operation:**
 
@@ -334,7 +575,8 @@ The Club Management System (CMS) is a web-based solution that function as a cent
 
 #### Site Adaptation Requirements
 
-> The Student Club Management includes some site-specific customization requirements:
+> The Student Club Management includes some site-specific customization
+> requirements:
 >
 > **a) Initialization Sequences:**
 
@@ -346,7 +588,8 @@ The Club Management System (CMS) is a web-based solution that function as a cent
 
   - Approval workflows
 
-- Safety constraints for budget caps and event duration rules are configurable per institution.
+- Safety constraints for budget caps and event duration rules are
+  configurable per institution.
 
 > **b) Configurable Features:**
 
@@ -354,165 +597,183 @@ The Club Management System (CMS) is a web-based solution that function as a cent
 
 - Notification rules (e.g., when to send reminders)
 
-- Admin roles and permissions can be adapted based on the university's organizational hierarchy
+- Admin roles and permissions can be adapted based on the university’s
+  organizational hierarchy
 
 ### Product function 
 
-+--------------------------------+--------------------------------------------------+
-| **Stakeholder**                | **Function**                                     |
-+================================+:================================================:+
-| **Club Member**                | Register to system                               |
-|                                +--------------------------------------------------+
-|                                | Login to system                                  |
-|                                +--------------------------------------------------+
-|                                | Join the club                                    |
-|                                +--------------------------------------------------+
-|                                | View upcoming events                             |
-+--------------------------------+--------------------------------------------------+
-|                                | RSVP for events                                  |
-+--------------------------------+--------------------------------------------------+
-| **Club Committee**             | Login to system                                  |
-|                                +--------------------------------------------------+
-|                                | Manage club members                              |
-|                                +--------------------------------------------------+
-|                                | Create event proposal                            |
-|                                +--------------------------------------------------+
-|                                | Submit budget proposal                           |
-|                                +--------------------------------------------------+
-|                                | Submit venue booking proposal                    |
-|                                +--------------------------------------------------+
-|                                | Cancel event                                     |
-|                                +--------------------------------------------------+
-|                                | Submit event report                              |
-+--------------------------------+--------------------------------------------------+
-| **Admin**                      | Login to system                                  |
-|                                +--------------------------------------------------+
-|                                | Monitor club and event activity                  |
-|                                +--------------------------------------------------+
-|                                | Generate reports                                 |
-+--------------------------------+--------------------------------------------------+
-| **Financial Department Staff** | View, approve or decline budget proposal         |
-+--------------------------------+--------------------------------------------------+
-| **Venue Booking Staff**        | View, approve or decline venue booking proposals |
-+--------------------------------+--------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 64%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Stakeholder</strong></th>
+<th style="text-align: center;"><strong>Function</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="4"><strong>Club Member</strong></td>
+<td style="text-align: center;">Register to system</td>
+</tr>
+<tr>
+<td style="text-align: center;">Login to system</td>
+</tr>
+<tr>
+<td style="text-align: center;">Join the club</td>
+</tr>
+<tr>
+<td style="text-align: center;">View upcoming events</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: center;">RSVP for events</td>
+</tr>
+<tr>
+<td rowspan="7"><strong>Club Committee</strong></td>
+<td style="text-align: center;">Login to system</td>
+</tr>
+<tr>
+<td style="text-align: center;">Manage club members</td>
+</tr>
+<tr>
+<td style="text-align: center;">Create event proposal</td>
+</tr>
+<tr>
+<td style="text-align: center;">Submit budget proposal</td>
+</tr>
+<tr>
+<td style="text-align: center;">Submit venue booking proposal</td>
+</tr>
+<tr>
+<td style="text-align: center;">Cancel event</td>
+</tr>
+<tr>
+<td style="text-align: center;">Submit event report</td>
+</tr>
+<tr>
+<td rowspan="3"><strong>Admin</strong></td>
+<td style="text-align: center;">Login to system</td>
+</tr>
+<tr>
+<td style="text-align: center;">Monitor club and event activity</td>
+</tr>
+<tr>
+<td style="text-align: center;">Generate reports</td>
+</tr>
+<tr>
+<td><strong>Financial Department Staff</strong></td>
+<td style="text-align: center;">View, approve or decline budget
+proposal</td>
+</tr>
+<tr>
+<td><strong>Venue Booking Staff</strong></td>
+<td style="text-align: center;">View, approve or decline venue booking
+proposals</td>
+</tr>
+</tbody>
+</table>
 
 ### User characteristics 
 
-There are several key user roles in Club Management System (CMS), including club member, club committee, admin, finance and venue officer. The following table shows the expected level of knowledge for each user.
+There are several key user roles in Club Management System (CMS),
+including club member, club committee, admin, finance and venue officer.
+The following table shows the expected level of knowledge for each user.
 
 System internal user:
 
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Role             Description                                                                                                 Required knowledge
-  ---------------- ----------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------
-  Club member      A student who participates in the university club                                                           Basic knowledge of using the CMS to register, view events and RSVP in the events.
-
-  Club committee   A leader in the club who will manage the club activities and submission                                     Knowledge on how to manage club information, submit the event proposal include venue and finance request, and submit event report.
-
-  Admin            University staff that responsible for managing and oversee the overall club activities in the university.   Knowledge in user management, activity monitoring, generating report in the system
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Role | Description | Required knowledge |
+|----|----|----|
+| Club member | A student who participates in the university club | Basic knowledge of using the CMS to register, view events and RSVP in the events. |
+| Club committee | A leader in the club who will manage the club activities and submission | Knowledge on how to manage club information, submit the event proposal include venue and finance request, and submit event report. |
+| Admin | University staff that responsible for managing and oversee the overall club activities in the university. | Knowledge in user management, activity monitoring, generating report in the system |
 
 System external user:
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Role            Description                                                 Knowledge
-  --------------- ----------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------
-  Finance staff   University staff who handle the financial matters           Ability to track budget, review and approve/reject club application, and update financial status within the CMS.
-
-  Venue staff     University staff who manage venue booking and scheduling.   Knowledge in venue booking and scheduling and maintaining venue usage record in CMS.
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Role | Description | Knowledge |
+|----|----|----|
+| Finance staff | University staff who handle the financial matters | Ability to track budget, review and approve/reject club application, and update financial status within the CMS. |
+| Venue staff | University staff who manage venue booking and scheduling. | Knowledge in venue booking and scheduling and maintaining venue usage record in CMS. |
 
 ### Limitations
 
-Club Management System (CMS) provide an efficient platform for managing student club activities, there are several limitations as well that may affect its functionality and performance, these limitations are outlined in the table below:
+Club Management System (CMS) provide an efficient platform for managing
+student club activities, there are several limitations as well that may
+affect its functionality and performance, these limitations are outlined
+in the table below:
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Limitations                       Description
-  --------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Limited to university club only   The system developed specifically for university club only, external organization cannot use the platform.
-
-  Venue booking constraints         The venue viewing/booking depend on the integration with the university venue system, if the university system is offline, the information will be inaccurate.
-
-  No mobile application             The CMS is a web-based application and may not be fully optimized for mobile device. A dedicated mobile application is not available at this moment.
-
-  Cannot use without internet       The CMS is a web-based application which needed internet connection to use. Location with weak or no internet connection difficult to use it.
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Limitations | Description |
+|----|----|
+| Limited to university club only | The system developed specifically for university club only, external organization cannot use the platform. |
+| Venue booking constraints | The venue viewing/booking depend on the integration with the university venue system, if the university system is offline, the information will be inaccurate. |
+| No mobile application | The CMS is a web-based application and may not be fully optimized for mobile device. A dedicated mobile application is not available at this moment. |
+| Cannot use without internet | The CMS is a web-based application which needed internet connection to use. Location with weak or no internet connection difficult to use it. |
 
 #### Definitions 
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Definition       Description
-  ---------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  CMS              Club Management System (CMS) is a software application design to manage and support university club activities. It allows user to register, submit proposal, manage membership, and track event participation.
-
-  Club member      A registered university student who joined the club through the official enrolment process.
-
-  Club Committee   A member elected or appointed to a leadership position in the club.
-
-  Event            An organized activity planned by a club that requires submission of proposal including the financial resource, venue booking and university approval.
-
-  Admin            University staff that responsible for managing and oversee the overall club in the university.
-
-  Finance Module   An integrated part of the CMS that handle financial processes.
-
-  Venue Module     An integrated part of the CMS that handle venue booking processes.
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Definition | Description |
+|----|----|
+| CMS | Club Management System (CMS) is a software application design to manage and support university club activities. It allows user to register, submit proposal, manage membership, and track event participation. |
+| Club member | A registered university student who joined the club through the official enrolment process. |
+| Club Committee | A member elected or appointed to a leadership position in the club. |
+| Event | An organized activity planned by a club that requires submission of proposal including the financial resource, venue booking and university approval. |
+| Admin | University staff that responsible for managing and oversee the overall club in the university. |
+| Finance Module | An integrated part of the CMS that handle financial processes. |
+| Venue Module | An integrated part of the CMS that handle venue booking processes. |
 
 # References
 
 This document is prepared in reference to the following documents:
 
-1.  IEEE. (2018). ISO/IEC/IEEE 29148:2018 Systems and software engineering--- Life cycle processes--- Requirements engineering.
+1.  IEEE. (2018). ISO/IEC/IEEE 29148:2018 Systems and software
+    engineering— Life cycle processes— Requirements engineering.
 
 > <https://www.iso.org/standard/72089.html>
 
-2.  M. Hariprasad, N. N, N. Dey, P. D and R. Kumar P, \"College Club Activity Management System,\" 2023 7th International Conference on Computation
+2.  M. Hariprasad, N. N, N. Dey, P. D and R. Kumar P, "College Club
+    Activity Management System," 2023 7th International Conference on
+    Computation
 
 > System and Information Technology for Sustainable Solutions (CSITSS),
 >
-> Bangalore, India, 2023, pp. 1-5, doi: 10.1109/CSITSS60515.2023.10334208.
+> Bangalore, India, 2023, pp. 1-5, doi:
+> 10.1109/CSITSS60515.2023.10334208.
 
-3.  Wiegers, K., & Beatty, J. (2013). Software requirements (3rd ed.). Microsoft Press.
+3.  Wiegers, K., & Beatty, J. (2013). Software requirements (3rd ed.).
+    Microsoft Press.
 
 # Requirements
 
 ## Functions
 
-In this section, the key function of the Club Management System (CMS) is outlined. This function will represent the core activities that user can perform in the system. The diagram 3.1 below is the use case diagram which show overview of how different user can interact with the system and table 3.1 show the detailed of each function.
+In this section, the key function of the Club Management System (CMS) is
+outlined. This function will represent the core activities that user can
+perform in the system. The diagram 3.1 below is the use case diagram
+which show overview of how different user can interact with the system
+and table 3.1 show the detailed of each function.
 
-![A diagram of a student club management system AI-generated content may be incorrect.](/media/image13.png){width="5.792832458442694in" height="4.64583552055993in"}*Figure 3.1 Use case diagram*
+<img src="/media/image13.png" style="width:5.79283in;height:4.64584in"
+alt="A diagram of a student club management system AI-generated content may be incorrect." />*Figure
+3.1 Use case diagram*
 
-  -----------------------------------------------------------------------------------------------------------------------------------------------------
-  **Function Code**   **Function Name**                 **Description**
-  ------------------- --------------------------------- -----------------------------------------------------------------------------------------------
-  F001                Login to system                   Allows club members, committee and system admin to access the system using their credentials.
-
-  F002                Register to system                Enables students to register in the system.
-
-  F003                Join club                         Enable student to join the available club in university
-
-  F004                View Upcoming Events              Member can request to displays a list of upcoming events organized by clubs.
-
-  F005                RSVP for Events                   Allows members to RSVP for events they are interested in attending.
-
-  F006                Manage Club Members               Enables committee members to manage member lists.
-
-  F007                Create Event Proposal             Committee can draft a proposal for a new event.
-
-  F008                Submit Budget Proposal            Committee submits budget requests to the finance system for approval.
-
-  F009                Submit Venue Booking Proposal     Committee sends a booking request to reserve a venue through the venue system.
-
-  F010                Cancel Event                      Committee can cancel planned events due to various reasons.
-
-  F011                View RSVP for event               Committee can view the RSVP result in the system for the event
-
-  F012                Submit Event Report               After an event, committee submits a report with results and feedback.
-
-  F013                Monitor Club and Event Activity   Admin can track all club and event activities through the system.
-
-  F014                Generate Reports                  Admin generates event and activity reports for recordkeeping or analysis.
-  -----------------------------------------------------------------------------------------------------------------------------------------------------
+| **Function Code** | **Function Name** | **Description** |
+|----|----|----|
+| F001 | Login to system | Allows club members, committee and system admin to access the system using their credentials. |
+| F002 | Register to system | Enables students to register in the system. |
+| F003 | Join club | Enable student to join the available club in university |
+| F004 | View Upcoming Events | Member can request to displays a list of upcoming events organized by clubs. |
+| F005 | RSVP for Events | Allows members to RSVP for events they are interested in attending. |
+| F006 | Manage Club Members | Enables committee members to manage member lists. |
+| F007 | Create Event Proposal | Committee can draft a proposal for a new event. |
+| F008 | Submit Budget Proposal | Committee submits budget requests to the finance system for approval. |
+| F009 | Submit Venue Booking Proposal | Committee sends a booking request to reserve a venue through the venue system. |
+| F010 | Cancel Event | Committee can cancel planned events due to various reasons. |
+| F011 | View RSVP for event | Committee can view the RSVP result in the system for the event |
+| F012 | Submit Event Report | After an event, committee submits a report with results and feedback. |
+| F013 | Monitor Club and Event Activity | Admin can track all club and event activities through the system. |
+| F014 | Generate Reports | Admin generates event and activity reports for recordkeeping or analysis. |
 
 *Table 3.1 List of function*
 
@@ -520,149 +781,147 @@ In this section, the key function of the Club Management System (CMS) is outline
 
 #### Login Activity Diagram
 
-![](/media/image14.png){width="2.762419072615923in" height="3.284825021872266in"}
+<img src="/media/image14.png"
+style="width:2.76242in;height:3.28483in" />
 
 *Figure 3.1.1.1 Login Activity Diagram*
 
 #### Register to System Activity Diagram
 
-![](/media/image15.png){width="2.788575021872266in" height="3.062713254593176in"}
+<img src="/media/image15.png"
+style="width:2.78858in;height:3.06271in" />
 
 *Figure 3.1.1.2 Register to System Activity Diagram*
 
 #### Join Cub Activity Diagram
 
-![](/media/image16.png){width="3.4714763779527558in" height="4.076110017497813in"}
+<img src="/media/image16.png"
+style="width:3.47148in;height:4.07611in" />
 
 *Figure 3.1.1.3 Join Club to System Activity Diagram*
 
 #### View Upcoming Events Activity Diagram
 
-![](media/image7.png){width="3.29375in" height="3.097916666666667in"}
+<img src="media/image7.png" style="width:3.29375in;height:3.09792in" />
 
 *Figure 3.1.1.4 View Upcoming Events Activity Diagram*
 
 #### RSVP for Events Activity Diagram
 
-![](media/image8.png){width="1.8479166666666667in" height="3.652083333333333in"}
+<img src="media/image8.png" style="width:1.84792in;height:3.65208in" />
 
 *Figure 3.1.1.5 RSVP for Events Activity Diagram*
 
 #### Manage Club Members Activity Diagram
 
-![](/media/image17.png){width="1.7357217847769029in" height="3.507833552055993in"}
+<img src="/media/image17.png"
+style="width:1.73572in;height:3.50783in" />
 
 *Figure 3.1.1.6 Manage Club Members Activity Diagram*
 
 #### Create Event Proposal Sequence Diagram
 
-![](/media/image18.png){width="5.193525809273841in" height="3.6877712160979876in"}
+<img src="/media/image18.png"
+style="width:5.19353in;height:3.68777in" />
 
 *Figure 3.1.1.7 Create Event Proposal Sequence Diagram*
 
 #### Submit Budget Proposal Activity Diagram
 
-![](media/image11.png){width="2.38043416447944in" height="3.230640857392826in"}
+<img src="media/image11.png" style="width:2.38043in;height:3.23064in" />
 
 *Figure 3.1.1.8 Submit Budget Proposal Activity Diagram*
 
 #### Submit Venue Booking Proposal Activity Diagram
 
-![](/media/image19.png){width="2.684712379702537in" height="3.643596894138233in"}
+<img src="/media/image19.png" style="width:2.68471in;height:3.6436in" />
 
 *Figure 3.1.1.9 Submit Venue Booking Proposal Activity Diagram*
 
 #### Cancel Event Sequence Diagram 
 
-![](/media/image1a.png){width="5.667344706911636in" height="3.618649387576553in"}
+<img src="/media/image1a.png"
+style="width:5.66734in;height:3.61865in" />
 
 *Figure 3.1.1.10 Cancel Event Sequence Diagram*
 
 #### View RSVP for Event Activity Diagram
 
-![](/media/image1b.png){width="1.9144925634295713in" height="3.3152176290463693in"}
+<img src="/media/image1b.png"
+style="width:1.91449in;height:3.31522in" />
 
 *Figure 3.1.1.11 View RSVP for Event Activity Diagram*
 
 #### Submit Event Report Activity Diagram
 
-![](/media/image1c.png){width="1.9183584864391952in" height="3.683333333333333in"}
+<img src="/media/image1c.png"
+style="width:1.91836in;height:3.68333in" />
 
 *Figure 3.1.1.12 Submit Event Report Activity Diagram*
 
 #### Monitor Club and Event Activity Activity Diagram
 
-![](/media/image1d.png){width="1.7412106299212597in" height="3.589583333333333in"}
+<img src="/media/image1d.png"
+style="width:1.74121in;height:3.58958in" />
 
 *Figure 3.1.1.13 Monitor Club and Event Activity* *Activity Diagram*
 
 #### Generate Report Activity Diagram
 
-![](/media/image1e.png){width="2.759514435695538in" height="4.729558180227472in"}
+<img src="/media/image1e.png"
+style="width:2.75951in;height:4.72956in" />
 
 *Figure 3.1.1.14 Generate Report Activity Diagram*
 
 ## Performance requirements
 
-  ---------------------------------------------------------------------------------------------------------------------
-  Requirement ID   Description                                                                             Priority
-  ---------------- --------------------------------------------------------------------------------------- ------------
-  REQ_P001         The system should load all dashboard components in 3 seconds for 90% of users           High
-
-  REQ_P002         Event RSVP submission shall process within 2 seconds during peak usage.                 High
-
-  REQ_P003         Budget proposal submission to finance system should receive response within 5 seconds   Medium
-
-  REQ_P004         Venue booking function shall synchronize with external venue system within 5 second.    Medium
-
-  REQ_P005         Report for up to 1000 record shall generate within 10 second.                           Low
-  ---------------------------------------------------------------------------------------------------------------------
+| Requirement ID | Description | Priority |
+|----|----|----|
+| REQ_P001 | The system should load all dashboard components in 3 seconds for 90% of users | High |
+| REQ_P002 | Event RSVP submission shall process within 2 seconds during peak usage. | High |
+| REQ_P003 | Budget proposal submission to finance system should receive response within 5 seconds | Medium |
+| REQ_P004 | Venue booking function shall synchronize with external venue system within 5 second. | Medium |
+| REQ_P005 | Report for up to 1000 record shall generate within 10 second. | Low |
 
 ## Usability requirements
 
-  --------------------------------------------------------------------------------------------------------------------------------
-  Requirement ID   Description                                                                           Metric         Priority
-  ---------------- ------------------------------------------------------------------------------------- -------------- ----------
-  REQ_U001         User should complete registration/login within 3 clicks from the homepage             ≤ 3 clicks     High
-
-  REQ_U002         Club committee shall submit event proposal within 3 minutes (average)                 ≤ 3 minutes    High
-
-  REQ_U003         Member should complete RSVP to the event within 5 clicks                              ≤ 3 clicks     Medium
-
-  REQ_U004         90% of users shall rate the system's ease of use as ≥4/5 on a post-training survey.   Survey score   High
-  --------------------------------------------------------------------------------------------------------------------------------
+| Requirement ID | Description | Metric | Priority |
+|----|----|----|----|
+| REQ_U001 | User should complete registration/login within 3 clicks from the homepage | ≤ 3 clicks | High |
+| REQ_U002 | Club committee shall submit event proposal within 3 minutes (average) | ≤ 3 minutes | High |
+| REQ_U003 | Member should complete RSVP to the event within 5 clicks | ≤ 3 clicks | Medium |
+| REQ_U004 | 90% of users shall rate the system’s ease of use as ≥4/5 on a post-training survey. | Survey score | High |
 
 ## Interface requirements 
 
 ### System interface
 
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **System**                             **Interface Type**   **Benefits**
-  -------------------------------------- -------------------- -----------------------------------------------------------------------------------------------------
-  **University Authentication System**   OAuth2 / SAML        Ensures secure access with Single Sign-On (SSO), reducing login friction and improving user trust.
-
-  **Financial Management System**        REST API             Enables automated submission and real-time tracking of budget proposals, reducing manual paperwork.
-
-  **Venue Reservation System**           REST API             Facilitates efficient venue booking by checking availability and automating approvals.
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **System** | **Interface Type** | **Benefits** |
+|----|----|----|
+| **University Authentication System** | OAuth2 / SAML | Ensures secure access with Single Sign-On (SSO), reducing login friction and improving user trust. |
+| **Financial Management System** | REST API | Enables automated submission and real-time tracking of budget proposals, reducing manual paperwork. |
+| **Venue Reservation System** | REST API | Facilitates efficient venue booking by checking availability and automating approvals. |
 
 ### User interface
 
 > Key UI Features:
 
-- Top Navigation Bar: Provide access to the Dashboard, Club, Upcoming Events and Profile.
+- Top Navigation Bar: Provide access to the Dashboard, Club, Upcoming
+  Events and Profile.
 
 - **Role-based Dashboards**:
 
   - **Members**: See available clubs, RSVP to events.
 
-  - **Committee**: Submit event proposals, manage members, track budgets.
+  - **Committee**: Submit event proposals, manage members, track
+    budgets.
 
   - **Admins**: Approve proposals, monitor reports.
 
 - **Forms**:
 
-  - Event proposal form (fields for title, date, description, budget, venue)
+  - Event proposal form (fields for title, date, description, budget,
+    venue)
 
   - Member registration form
 
@@ -674,11 +933,13 @@ In this section, the key function of the Club Management System (CMS) is outline
 
   - Notifications panel
 
-The interface will follow modern UI/UX principles and be accessible on desktop and mobile devices.
+The interface will follow modern UI/UX principles and be accessible on
+desktop and mobile devices.
 
 ### Hardware interface
 
-> The system should support the following hardware-related considerations:
+> The system should support the following hardware-related
+> considerations:
 
 - **Client Devices**:
 
@@ -694,177 +955,197 @@ The interface will follow modern UI/UX principles and be accessible on desktop a
 
 ### Software interface
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Software Product**          **Version/Spec**   **Benefits**
-  ----------------------------- ------------------ ---------------------------------------------------------------------------------------------------------------------------
-  University Financial System   v3.2+ (API)        Enables efficient, automated processing of budget requests with real-time status tracking.
-
-  Venue Booking System          v2.5 (API)         Reduces scheduling conflicts and manual coordination by providing up-to-date room availability and booking integration.
-
-  University Login System       OAuth2, SAML       Enhances security and user convenience through centralized authentication and role-based access control.
-
-  PostgreSQL Database           13+                Provides reliable, scalable, and performant storage of system data including users, events, and proposals.
-
-  Node.js (Backend Runtime)     18.x               Offers efficient handling of asynchronous tasks and API requests, contributing to fast and responsive system performance.
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **Software Product** | **Version/Spec** | **Benefits** |
+|----|----|----|
+| University Financial System | v3.2+ (API) | Enables efficient, automated processing of budget requests with real-time status tracking. |
+| Venue Booking System | v2.5 (API) | Reduces scheduling conflicts and manual coordination by providing up-to-date room availability and booking integration. |
+| University Login System | OAuth2, SAML | Enhances security and user convenience through centralized authentication and role-based access control. |
+| PostgreSQL Database | 13+ | Provides reliable, scalable, and performant storage of system data including users, events, and proposals. |
+| Node.js (Backend Runtime) | 18.x | Offers efficient handling of asynchronous tasks and API requests, contributing to fast and responsive system performance. |
 
 ### Communication interface
 
-  -----------------------------------------------------------------------------------------------------
-  **Interface**       **Protocol**      **Use**
-  ------------------- ----------------- ---------------------------------------------------------------
-  Web communication   HTTPS (TLS 1.3)   For secure API communication and frontend/backend interaction
-
-  API endpoints       REST (JSON)       For financial system, venue system, and internal APIs
-
-  Notifications       SMTP (TLS)        For sending email alerts on budget/venue decisions
-  -----------------------------------------------------------------------------------------------------
+| **Interface** | **Protocol** | **Use** |
+|----|----|----|
+| Web communication | HTTPS (TLS 1.3) | For secure API communication and frontend/backend interaction |
+| API endpoints | REST (JSON) | For financial system, venue system, and internal APIs |
+| Notifications | SMTP (TLS) | For sending email alerts on budget/venue decisions |
 
 ## Logical database requirements
 
-> ![](/media/image1f.png){width="6.64383530183727in" height="4.041666666666667in"}
+> <img src="/media/image1f.png"
+> style="width:6.64384in;height:4.04167in" />
 
 Relationships:
 
-- A **User** can be a member of many **Clubs**; a **Club** has many **Users** → *many-to-many* via **Membership**.
+- A **User** can be a member of many **Clubs**; a **Club** has many
+  **Users** → *many-to-many* via **Membership**.
 
-- A **Club** can organize multiple **Events**; each **Event** belongs to one **Club** → *one-to-many*.
+- A **Club** can organize multiple **Events**; each **Event** belongs to
+  one **Club** → *one-to-many*.
 
-- Each **Event** can have multiple **RSVPs** by **Users** → *one-to-many*.
+- Each **Event** can have multiple **RSVPs** by **Users** →
+  *one-to-many*.
 
-- Each **Budget Proposal** is linked to one **Club** and optionally to one **Event**.
+- Each **Budget Proposal** is linked to one **Club** and optionally to
+  one **Event**.
 
-- An **Event** is held at one **Venue**; a **Venue** may host multiple **Events** over time.
+- An **Event** is held at one **Venue**; a **Venue** may host multiple
+  **Events** over time.
 
 Constraints:
 
-- **Unique Constraints** on email (User), club name (Club), and event name per date (Event).
+- **Unique Constraints** on email (User), club name (Club), and event
+  name per date (Event).
 
-- **Foreign Keys** between related entities to ensure referential integrity.
+- **Foreign Keys** between related entities to ensure referential
+  integrity.
 
-- **Check Constraints** for status fields (get_status (\'pending\', \'approved\', \'rejected\')).
+- **Check Constraints** for status fields (get_status ('pending',
+  'approved', 'rejected')).
 
 ## Design constraint 
 
-> The design of the Student Club Management System is subject to several constraints arising from institutional policies, technical environments, and regulatory compliance.
+> The design of the Student Club Management System is subject to several
+> constraints arising from institutional policies, technical
+> environments, and regulatory compliance.
 
 Technical Constraints:
 
-- **Authentication** must use the university's existing **OAuth2 based SSO system**.
+- **Authentication** must use the university’s existing **OAuth2 based
+  SSO system**.
 
-- The system must be developed using **open-source technologies** (e.g., Node.js, PostgreSQL).
+- The system must be developed using **open-source technologies** (e.g.,
+  Node.js, PostgreSQL).
 
-- **RESTful API architecture** must be followed for external integrations (Financial and Venue systems).
+- **RESTful API architecture** must be followed for external
+  integrations (Financial and Venue systems).
 
-- The web interface must be **responsive** and usable on standard browsers (Chrome, Firefox, Safari, Edge).
+- The web interface must be **responsive** and usable on standard
+  browsers (Chrome, Firefox, Safari, Edge).
 
 Institutional Constraints:
 
-- The system must comply with **university IT governance policies**, including data privacy and audit requirements.
+- The system must comply with **university IT governance policies**,
+  including data privacy and audit requirements.
 
-- Only **authorized personnel** (admins, committee members) may access approval or modification features.
+- Only **authorized personnel** (admins, committee members) may access
+  approval or modification features.
 
 Regulatory/Standards Constraints:
 
-- Must comply with **data protection regulations** (e.g., FERPA or GDPR equivalents in your jurisdiction).
+- Must comply with **data protection regulations** (e.g., FERPA or GDPR
+  equivalents in your jurisdiction).
 
-- All student records and event data must be **encrypted in transit (TLS 1.3)** and at rest.
+- All student records and event data must be **encrypted in transit (TLS
+  1.3)** and at rest.
 
 - 
 
 > UI/UX Constraints:
 
-- Interface design must follow the **university branding guidelines** including logo, colours, and font standards.
+- Interface design must follow the **university branding guidelines**
+  including logo, colours, and font standards.
 
 - Navigation must be simple and consistent across all modules.
 
 ## Software system attributes 
 
-> This section specifies the key quality attributes expected from the **Student Club Management System (SCMS)** and their implementation-related requirements.
+> This section specifies the key quality attributes expected from the
+> **Student Club Management System (SCMS)** and their
+> implementation-related requirements.
 
 ### Reliability
 
-  ------------------------------------------------------------------------------------------------------------------------------------
-  **Requirement ID**   **Description**                                                                   **Priority**   **Author**
-  -------------------- --------------------------------------------------------------------------------- -------------- --------------
-  REQ_SCMS_001         SCMS shall recover from unexpected crashes within 60 seconds without data loss.   High           Project Team
-
-  ------------------------------------------------------------------------------------------------------------------------------------
+| **Requirement ID** | **Description** | **Priority** | **Author** |
+|----|----|----|----|
+| REQ_SCMS_001 | SCMS shall recover from unexpected crashes within 60 seconds without data loss. | High | Project Team |
 
 ### Availability
 
-  ---------------------------------------------------------------------------------------------------------------------------------
-  **Requirement ID**   **Description**                                                                **Priority**   **Author**
-  -------------------- ------------------------------------------------------------------------------ -------------- --------------
-  REQ_SCMS_002         SCMS shall maintain at least 99.9% uptime during weekdays from 8 AM to 6 PM.   High           Project Team
-
-  ---------------------------------------------------------------------------------------------------------------------------------
+| **Requirement ID** | **Description** | **Priority** | **Author** |
+|----|----|----|----|
+| REQ_SCMS_002 | SCMS shall maintain at least 99.9% uptime during weekdays from 8 AM to 6 PM. | High | Project Team |
 
 ### Security
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------
-  **Requirement ID**   **Description**                                                                                **Priority**   **Author**
-  -------------------- ---------------------------------------------------------------------------------------------- -------------- --------------
-  REQ_SCMS_003         SCMS shall implement role-based access control for all user operations.                        High           Project Team
-
-  REQ_SCMS_004         SCMS shall encrypt all sensitive data using TLS 1.3 during transmission and AES-256 at rest.   High           Project Team
-  -------------------------------------------------------------------------------------------------------------------------------------------------
+| **Requirement ID** | **Description** | **Priority** | **Author** |
+|----|----|----|----|
+| REQ_SCMS_003 | SCMS shall implement role-based access control for all user operations. | High | Project Team |
+| REQ_SCMS_004 | SCMS shall encrypt all sensitive data using TLS 1.3 during transmission and AES-256 at rest. | High | Project Team |
 
 ### Maintainability
 
-  ----------------------------------------------------------------------------------------------------------------------------------------
-  **Requirement ID**   **Description**                                                                       **Priority**   **Author**
-  -------------------- ------------------------------------------------------------------------------------- -------------- --------------
-  REQ_SCMS_005         SCMS code shall follow standard coding guidelines and include inline documentation.   Medium         Project Team
-
-  REQ_SCMS_006         SCMS shall achieve at least 80%-unit test coverage for critical modules.              Medium         Project Team
-  ----------------------------------------------------------------------------------------------------------------------------------------
+| **Requirement ID** | **Description** | **Priority** | **Author** |
+|----|----|----|----|
+| REQ_SCMS_005 | SCMS code shall follow standard coding guidelines and include inline documentation. | Medium | Project Team |
+| REQ_SCMS_006 | SCMS shall achieve at least 80%-unit test coverage for critical modules. | Medium | Project Team |
 
 ### Portability
 
-  -----------------------------------------------------------------------------------------------------------------------------------
-  **Requirement ID**   **Description**                                                                  **Priority**   **Author**
-  -------------------- -------------------------------------------------------------------------------- -------------- --------------
-  REQ_SCMS_007         SCMS shall run on both Linux and Windows environments using Docker containers.   High           Project Team
-
-  REQ_SCMS_008         SCMS shall not include any OS-specific file paths or dependencies.               Medium         Project Team
-  -----------------------------------------------------------------------------------------------------------------------------------
+| **Requirement ID** | **Description** | **Priority** | **Author** |
+|----|----|----|----|
+| REQ_SCMS_007 | SCMS shall run on both Linux and Windows environments using Docker containers. | High | Project Team |
+| REQ_SCMS_008 | SCMS shall not include any OS-specific file paths or dependencies. | Medium | Project Team |
 
 ## Supporting information
 
 ### Sample Input/Output Formats
 
-+-------------------+-----------------------------------+-----------------------------------------------------------------------+
-| **Function**      | **Sample Input**                  | **Expected Output**                                                   |
-+===================+===================================+=======================================================================+
-| Club Registration | Name: Robotics Club               | Club created successfully. Status: "Pending\"                         |
-|                   |                                   |                                                                       |
-|                   | Advisor: Prof. A. Kumar           |                                                                       |
-+-------------------+-----------------------------------+-----------------------------------------------------------------------+
-| Event Proposal    | Title: Hackathon 2025             | Event created. Budget submission link generated. Status: Draft        |
-|                   |                                   |                                                                       |
-|                   | Date: 2025-11-10                  |                                                                       |
-|                   |                                   |                                                                       |
-|                   | Venue: Auditorium                 |                                                                       |
-+-------------------+-----------------------------------+-----------------------------------------------------------------------+
-| RSVP Submission   | Event ID: 121112526               | \"RSVP confirmed. Check your university email for the event invite.\" |
-|                   |                                   |                                                                       |
-|                   | User ID: 801                      |                                                                       |
-+-------------------+-----------------------------------+-----------------------------------------------------------------------+
-| Budget Request    | Club: AI Society                  | \"Budget proposal submitted. Awaiting finance approval.\"             |
-|                   |                                   |                                                                       |
-|                   | Amount: \$450                     |                                                                       |
-|                   |                                   |                                                                       |
-|                   | Justification: Workshop equipment |                                                                       |
-+-------------------+-----------------------------------+-----------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 42%" />
+<col style="width: 40%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Function</strong></th>
+<th style="text-align: center;"><strong>Sample Input</strong></th>
+<th style="text-align: center;"><strong>Expected Output</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Club Registration</td>
+<td><p>Name: Robotics Club</p>
+<p>Advisor: Prof. A. Kumar</p></td>
+<td>Club created successfully. Status: “Pending"</td>
+</tr>
+<tr>
+<td>Event Proposal</td>
+<td><p>Title: Hackathon 2025</p>
+<p>Date: 2025-11-10</p>
+<p>Venue: Auditorium</p></td>
+<td>Event created. Budget submission link generated. Status: Draft</td>
+</tr>
+<tr>
+<td>RSVP Submission</td>
+<td><p>Event ID: 121112526</p>
+<p>User ID: 801</p></td>
+<td>"RSVP confirmed. Check your university email for the event
+invite."</td>
+</tr>
+<tr>
+<td>Budget Request</td>
+<td><p>Club: AI Society</p>
+<p>Amount: $450</p>
+<p>Justification: Workshop equipment</p></td>
+<td>"Budget proposal submitted. Awaiting finance approval."</td>
+</tr>
+</tbody>
+</table>
 
 ### Supporting or Background Information
 
-- The university currently manages student clubs using a combination of email, Google Forms, and paper-based budget forms.
+- The university currently manages student clubs using a combination of
+  email, Google Forms, and paper-based budget forms.
 
-- There is no existing unified system for event, budget, and member tracking --- causing delays, miscommunication, and duplication.
+- There is no existing unified system for event, budget, and member
+  tracking — causing delays, miscommunication, and duplication.
 
-- The SCMS will serve as the first centralized platform for these tasks, integrating with the university\'s finance and venue APIs.
+- The SCMS will serve as the first centralized platform for these tasks,
+  integrating with the university's finance and venue APIs.
 
 - Reference Materials:
 
@@ -876,13 +1157,17 @@ Regulatory/Standards Constraints:
 
 ### Problem Statement (What the Software Solves)
 
-> The current method of managing student club activities is fragmented and inefficient:
+> The current method of managing student club activities is fragmented
+> and inefficient:
 
-- Event proposals are submitted manually via forms and emails, leading to inconsistent approvals and lost requests.
+- Event proposals are submitted manually via forms and emails, leading
+  to inconsistent approvals and lost requests.
 
-- Budget submissions are often delayed due to missing paperwork or manual routing.
+- Budget submissions are often delayed due to missing paperwork or
+  manual routing.
 
-- Club membership rosters are not centralized, making it hard to validate participation or assign privileges.
+- Club membership rosters are not centralized, making it hard to
+  validate participation or assign privileges.
 
 - Venue booking conflicts occur due to lack of real-time visibility.
 
@@ -894,165 +1179,132 @@ Regulatory/Standards Constraints:
 
 - Centralizing membership and role management per club.
 
-- Reducing administrative load through streamlined integrations and audit trails.
+- Reducing administrative load through streamlined integrations and
+  audit trails.
 
 # Verification
 
-This section will describe the approach and criteria used to verify the University Club Management System (CMS) meets its functional and non-functional requirements. Verification ensures that the developed system will meet the stakeholder\'s expectation, complete and perform according to the specification
+This section will describe the approach and criteria used to verify the
+University Club Management System (CMS) meets its functional and
+non-functional requirements. Verification ensures that the developed
+system will meet the stakeholder's expectation, complete and perform
+according to the specification
 
 ##  Verification approach.
 
-The verification of CMS will be conducted using various software testing technique throughout the development lifecycle. The table below outlines the verification method, responsible parties, timeline and location for each of the technique. Table 4.1 below show the approach will be used.
+The verification of CMS will be conducted using various software testing
+technique throughout the development lifecycle. The table below outlines
+the verification method, responsible parties, timeline and location for
+each of the technique. Table 4.1 below show the approach will be used.
 
 Table 4.1 Verification approach list
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Verification technique**          **Description**                                                             **Responsible parties**       **Timeline**         **Location**
-  ----------------------------------- --------------------------------------------------------------------------- ----------------------------- -------------------- -----------------------------------
-  **Unit Testing**                    Verifies individual modules function as intended.                           Developer                     Week 4 -- Week 7     Developer environment
-
-  **Integration Testing**             Ensures interaction between modules works as expected.                      Developers, QA Tester         Week 7 -- Week 9     Staging/test environment
-
-  **Functional Testing**              Validate that each function (F001--F013) meets the requirements.            QA team, project supervisor   Week 9 -- Week 10    University test lab
-
-  **System Testing**                  Assesses the entire system behaviour, including performance and security.   QA team                       Week 10 -- Week 11   Controlled lab/test server
-
-  **User Acceptance Testing (UAT)**   Real users will test the system to confirm it meets real-world need.        End-users, QA team            Week 11 -- Week 12   Campus lab or virtual environment
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **Verification technique** | **Description** | **Responsible parties** | **Timeline** | **Location** |
+|----|----|----|----|----|
+| **Unit Testing** | Verifies individual modules function as intended. | Developer | Week 4 – Week 7 | Developer environment |
+| **Integration Testing** | Ensures interaction between modules works as expected. | Developers, QA Tester | Week 7 – Week 9 | Staging/test environment |
+| **Functional Testing** | Validate that each function (F001–F013) meets the requirements. | QA team, project supervisor | Week 9 – Week 10 | University test lab |
+| **System Testing** | Assesses the entire system behaviour, including performance and security. | QA team | Week 10 – Week 11 | Controlled lab/test server |
+| **User Acceptance Testing (UAT)** | Real users will test the system to confirm it meets real-world need. | End-users, QA team | Week 11 – Week 12 | Campus lab or virtual environment |
 
 ## Verification criteria
 
 ### Unit Testing Verification Criteria
 
-  ---------------------------------------------------------------------------------------------------
-  **Module**      **Test Case**                                   **Expected Output**
-  --------------- ----------------------------------------------- -----------------------------------
-  Login           Validate correct username/password              Return true, user logged in
-
-                  Validate incorrect password                     Return false, login fails
-
-  Registration    Register new user with valid inputs             Return success, user stored in DB
-
-                  Register with missing student ID                Throw validation error
-
-  Event module    Create event with valid data                    Event object created and stored
-
-  RSVP module     Submit RSVP with valid member ID and event ID   RSVP saved; confirmation returned
-
-  Report module   Generate report for 1000 records                Returns report object, size ≤ 10s
-  ---------------------------------------------------------------------------------------------------
+| **Module** | **Test Case** | **Expected Output** |
+|----|----|----|
+| Login | Validate correct username/password | Return true, user logged in |
+|  | Validate incorrect password | Return false, login fails |
+| Registration | Register new user with valid inputs | Return success, user stored in DB |
+|  | Register with missing student ID | Throw validation error |
+| Event module | Create event with valid data | Event object created and stored |
+| RSVP module | Submit RSVP with valid member ID and event ID | RSVP saved; confirmation returned |
+| Report module | Generate report for 1000 records | Returns report object, size ≤ 10s |
 
 ### Integration testing verification criteria
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Integrated Modules**             **Test Case**                                               **Expected Outcome**
-  ---------------------------------- ----------------------------------------------------------- -------------------------------------------------------------
-  Registration + login               New user registers and logs in immediately                  Login succeeds post-registration
-
-  Event creation + RSVP              User RSVP to an event created minutes earlier               RSVP linked to correct event
-
-  Budget proposal + finance system   Submit budget, receive acknowledgment from external API     Response = \"Proposal Received\" in external finance system
-
-  Venue booking + venue system       Book venue via UCMS, view confirmation in external system   Booking marked "Reserved" externally within 5 second
-
-  Event report + report generator    Submit report and generate monthly summary                  System summarizes and includes the latest event reports
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **Integrated Modules** | **Test Case** | **Expected Outcome** |
+|----|----|----|
+| Registration + login | New user registers and logs in immediately | Login succeeds post-registration |
+| Event creation + RSVP | User RSVP to an event created minutes earlier | RSVP linked to correct event |
+| Budget proposal + finance system | Submit budget, receive acknowledgment from external API | Response = "Proposal Received" in external finance system |
+| Venue booking + venue system | Book venue via UCMS, view confirmation in external system | Booking marked “Reserved” externally within 5 second |
+| Event report + report generator | Submit report and generate monthly summary | System summarizes and includes the latest event reports |
 
 ### Functional testing verification criteria
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Function Code**   **Feature**                       **Test Case**                                        **Expected Outcome**
-  ------------------- --------------------------------- ---------------------------------------------------- --------------------------------------------------
-  F001                Login                             Log in as a member with valid credentials            Redirected to member dashboard
-
-  F002                Registration                      Register with valid student ID and MMU email         Account created successfully
-
-  F003                Join Club                         Join a club for student role                         Successfully join the available club
-
-  F004                View Upcoming Events              Member views upcoming events                         List shows all upcoming events
-
-  F005                RSVP for Events                   RSVP to an event as a logged-in user                 RSVP recorded and confirmation shown
-
-  F006                Manage Club Members               Committee removes a member from the club list        Member removed from list
-
-  F007                Create Event Proposal             Committee submits event title, date, objective       Event proposal stored in system
-
-  F008                Submit Budget Proposal            Submit budget request of RM500 for approval          Status shown as \"Pending Approval\"
-
-  F009                Submit Venue Booking Proposal     Send venue request for May 30 in Lecture Hall A      Venue status = "Requested"
-
-  F010                Cancel Event                      Committee cancels an event scheduled for next week   Event marked as cancelled; participants notified
-
-  F011                View RSVP for event               Committee checks RSVP for an upcoming event          List of attendees displayed
-
-  F012                Submit Event Report               Submit post-event report including feedback          Report stored and status = \"Submitted\"
-
-  F013                Monitor Club and Event Activity   Admin views current event and activity logs          Dashboard shows updated info
-
-  F014                Generate Reports                  Admin generates yearly club activity report          Downloaded PDF includes summary for the year
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **Function Code** | **Feature** | **Test Case** | **Expected Outcome** |
+|----|----|----|----|
+| F001 | Login | Log in as a member with valid credentials | Redirected to member dashboard |
+| F002 | Registration | Register with valid student ID and MMU email | Account created successfully |
+| F003 | Join Club | Join a club for student role | Successfully join the available club |
+| F004 | View Upcoming Events | Member views upcoming events | List shows all upcoming events |
+| F005 | RSVP for Events | RSVP to an event as a logged-in user | RSVP recorded and confirmation shown |
+| F006 | Manage Club Members | Committee removes a member from the club list | Member removed from list |
+| F007 | Create Event Proposal | Committee submits event title, date, objective | Event proposal stored in system |
+| F008 | Submit Budget Proposal | Submit budget request of RM500 for approval | Status shown as "Pending Approval" |
+| F009 | Submit Venue Booking Proposal | Send venue request for May 30 in Lecture Hall A | Venue status = “Requested” |
+| F010 | Cancel Event | Committee cancels an event scheduled for next week | Event marked as cancelled; participants notified |
+| F011 | View RSVP for event | Committee checks RSVP for an upcoming event | List of attendees displayed |
+| F012 | Submit Event Report | Submit post-event report including feedback | Report stored and status = "Submitted" |
+| F013 | Monitor Club and Event Activity | Admin views current event and activity logs | Dashboard shows updated info |
+| F014 | Generate Reports | Admin generates yearly club activity report | Downloaded PDF includes summary for the year |
 
 ### User acceptance testing verification criteria
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **User Role**    **UAT Scenario**                                                         **Acceptance Criteria**
-  ---------------- ------------------------------------------------------------------------ ---------------------------------------------------------------------
-  Club Member      Login, RSVP for event, view upcoming events                              All actions complete without errors, easy to navigate
-
-  Club Committee   Register, create event, submit budget and venue request, submit report   Workflow can be completed in under 10 minutes; responses within SLA
-
-  Admin            Monitor club activity, generate reports, cancel an event                 Data accurate, reports correctly generated
-
-  All Users        Use system for 30 minutes and rate usability                             ≥90% users rate usability ≥4/5
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **User Role** | **UAT Scenario** | **Acceptance Criteria** |
+|----|----|----|
+| Club Member | Login, RSVP for event, view upcoming events | All actions complete without errors, easy to navigate |
+| Club Committee | Register, create event, submit budget and venue request, submit report | Workflow can be completed in under 10 minutes; responses within SLA |
+| Admin | Monitor club activity, generate reports, cancel an event | Data accurate, reports correctly generated |
+| All Users | Use system for 30 minutes and rate usability | ≥90% users rate usability ≥4/5 |
 
 ### Performance verification criteria
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Requirement ID**   **Description**                                                 **Verification Criteria**                                                    **Priority**
-  -------------------- --------------------------------------------------------------- ---------------------------------------------------------------------------- --------------
-  REQ_P001             Load dashboard within 3 seconds for 90% of users                90% of test users must experience ≤3s dashboard loading time.                High
-
-  REQ_P002             Process RSVP submissions within 2 seconds during peak usage     RSVP action must be confirmed in ≤2s with 100 concurrent users.              High
-
-  REQ_P003             Submit budget proposal and receive response in ≤5 seconds       Budget system responds to proposal submission within 5 seconds.              Medium
-
-  REQ_P004             Venue booking synchronizes with external system in ≤5 seconds   Venue booking request is acknowledged by external system within 5 seconds.   Medium
-
-  REQ_P005             Generate reports for up to 1000 records in ≤10 seconds          Report generation for 1000 records must not exceed 10 seconds.               Low
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **Requirement ID** | **Description** | **Verification Criteria** | **Priority** |
+|----|----|----|----|
+| REQ_P001 | Load dashboard within 3 seconds for 90% of users | 90% of test users must experience ≤3s dashboard loading time. | High |
+| REQ_P002 | Process RSVP submissions within 2 seconds during peak usage | RSVP action must be confirmed in ≤2s with 100 concurrent users. | High |
+| REQ_P003 | Submit budget proposal and receive response in ≤5 seconds | Budget system responds to proposal submission within 5 seconds. | Medium |
+| REQ_P004 | Venue booking synchronizes with external system in ≤5 seconds | Venue booking request is acknowledged by external system within 5 seconds. | Medium |
+| REQ_P005 | Generate reports for up to 1000 records in ≤10 seconds | Report generation for 1000 records must not exceed 10 seconds. | Low |
 
 ### Usability verification criteria
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Requirement ID**   **Description**                                              **Verification Criteria**                                               **Priority**
-  -------------------- ------------------------------------------------------------ ----------------------------------------------------------------------- --------------
-  REQ_U001             Complete registration/login in ≤3 clicks from homepage       Test users must register/login with ≤3 clicks from homepage.            High
-
-  REQ_U002             Submit event proposal in ≤3 minutes (average)                Committee users should complete event proposal form within 3 minutes.   High
-
-  REQ_U003             RSVP submission requires ≤5 clicks                           Test members must complete RSVP in ≤5 clicks.                           Medium
-
-  REQ_U004             90% of users rate ease of use ≥4/5 in post-training survey   Survey results show 90% of users give ≥4/5 for usability.               High
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **Requirement ID** | **Description** | **Verification Criteria** | **Priority** |
+|----|----|----|----|
+| REQ_U001 | Complete registration/login in ≤3 clicks from homepage | Test users must register/login with ≤3 clicks from homepage. | High |
+| REQ_U002 | Submit event proposal in ≤3 minutes (average) | Committee users should complete event proposal form within 3 minutes. | High |
+| REQ_U003 | RSVP submission requires ≤5 clicks | Test members must complete RSVP in ≤5 clicks. | Medium |
+| REQ_U004 | 90% of users rate ease of use ≥4/5 in post-training survey | Survey results show 90% of users give ≥4/5 for usability. | High |
 
 # Appendices
 
 ##  Assumptions and Dependencies
 
-> This section outlines all necessary conditions assumed to be true during the design and development of the Student Club Management System (CMS), as well as the technical, organizational, and environmental dependencies the system relies on. These factors are critical to ensure the CMS functions as intended and meets user expectations.\
-> \
+> This section outlines all necessary conditions assumed to be true
+> during the design and development of the Student Club Management
+> System (CMS), as well as the technical, organizational, and
+> environmental dependencies the system relies on. These factors are
+> critical to ensure the CMS functions as intended and meets user
+> expectations.  
+>   
 > A.1 Assumptions
 
 1.  **User Authentication and Access**
 
 <!-- -->
 
-A)  All end-users (students, committee members, admins, staff) possess valid and active university-issued credentials for access via the university\'s Single Sign-On (SSO) system.
+1)  All end-users (students, committee members, admins, staff) possess
+    valid and active university-issued credentials for access via the
+    university's Single Sign-On (SSO) system.
 
-B)  Role-based access rights (student, committee, admin, finance staff, venue staff) are properly pre-assigned by the university\'s identity management system.
+2)  Role-based access rights (student, committee, admin, finance staff,
+    venue staff) are properly pre-assigned by the university's identity
+    management system.
 
-C)  University staff are responsible for managing and updating user roles and permissions within the authentication system.
+3)  University staff are responsible for managing and updating user
+    roles and permissions within the authentication system.
 
 <!-- -->
 
@@ -1060,11 +1312,16 @@ C)  University staff are responsible for managing and updating user roles and pe
 
 <!-- -->
 
-A)  All users have regular access to the internet and modern web browsers (latest 2 versions of Chrome, Firefox, Safari, or Edge).
+1)  All users have regular access to the internet and modern web
+    browsers (latest 2 versions of Chrome, Firefox, Safari, or Edge).
 
-B)  The system will be hosted on a cloud-based infrastructure or a university-provided virtual machine with guaranteed uptime of at least 99.5%.
+2)  The system will be hosted on a cloud-based infrastructure or a
+    university-provided virtual machine with guaranteed uptime of at
+    least 99.5%.
 
-C)  Users will interact with the system via web-based interfaces; mobile responsiveness is expected but no native mobile app will be provided during the initial release.
+3)  Users will interact with the system via web-based interfaces; mobile
+    responsiveness is expected but no native mobile app will be provided
+    during the initial release.
 
 <!-- -->
 
@@ -1072,11 +1329,15 @@ C)  Users will interact with the system via web-based interfaces; mobile respons
 
 <!-- -->
 
-A)  All external APIs (financial system, venue booking system, authentication system) are compatible with RESTful communication and return predictable, validated JSON responses.
+1)  All external APIs (financial system, venue booking system,
+    authentication system) are compatible with RESTful communication and
+    return predictable, validated JSON responses.
 
-B)  External systems (finance, venue, university SSO) remain stable, maintained, and accessible throughout the lifecycle of CMS.
+2)  External systems (finance, venue, university SSO) remain stable,
+    maintained, and accessible throughout the lifecycle of CMS.
 
-C)  External system outages are rare and will be handled through fallback mechanisms or error messages.
+3)  External system outages are rare and will be handled through
+    fallback mechanisms or error messages.
 
 <!-- -->
 
@@ -1084,11 +1345,16 @@ C)  External system outages are rare and will be handled through fallback mechan
 
 <!-- -->
 
-A)  University regulations on event proposal approval, budget limits, venue usage, and report submissions are clearly documented and will be provided to the development team.
+1)  University regulations on event proposal approval, budget limits,
+    venue usage, and report submissions are clearly documented and will
+    be provided to the development team.
 
-B)  Each club has a designated advisor and at least one active committee member responsible for administrative actions (e.g., proposals, reports).
+2)  Each club has a designated advisor and at least one active committee
+    member responsible for administrative actions (e.g., proposals,
+    reports).
 
-C)  All clubs are formally recognized by the university and must follow standardized procedures for funding and venue requests.
+3)  All clubs are formally recognized by the university and must follow
+    standardized procedures for funding and venue requests.
 
 <!-- -->
 
@@ -1096,9 +1362,13 @@ C)  All clubs are formally recognized by the university and must follow standard
 
 <!-- -->
 
-A)  The university provides access to an SMTP-compatible email server for outbound communications (e.g., RSVP confirmations, budget/venue decisions, password recovery).
+1)  The university provides access to an SMTP-compatible email server
+    for outbound communications (e.g., RSVP confirmations, budget/venue
+    decisions, password recovery).
 
-B)  Notifications and alerts are enabled for all major workflows: event creation, approval, budget response, venue response, RSVP confirmations, and report submissions.
+2)  Notifications and alerts are enabled for all major workflows: event
+    creation, approval, budget response, venue response, RSVP
+    confirmations, and report submissions.
 
 <!-- -->
 
@@ -1106,11 +1376,14 @@ B)  Notifications and alerts are enabled for all major workflows: event creation
 
 <!-- -->
 
-A)  The university has an acceptable use policy and privacy guidelines governing the storage and access of student information.
+1)  The university has an acceptable use policy and privacy guidelines
+    governing the storage and access of student information.
 
-B)  All data transmitted between CMS and external/internal systems will use TLS 1.3 encryption.
+2)  All data transmitted between CMS and external/internal systems will
+    use TLS 1.3 encryption.
 
-C)  User data at rest (within the database) will be encrypted using industry standards (e.g., AES-256).
+3)  User data at rest (within the database) will be encrypted using
+    industry standards (e.g., AES-256).
 
 <!-- -->
 
@@ -1118,11 +1391,14 @@ C)  User data at rest (within the database) will be encrypted using industry sta
 
 <!-- -->
 
-A)  The development team will have sandbox access to test instances of the financial and venue systems.
+1)  The development team will have sandbox access to test instances of
+    the financial and venue systems.
 
-B)  Testing teams (QA, committee volunteers) are available for User Acceptance Testing (UAT) before system deployment.
+2)  Testing teams (QA, committee volunteers) are available for User
+    Acceptance Testing (UAT) before system deployment.
 
-C)  The university will provide or approve test accounts representing all user roles for end-to-end testing.
+3)  The university will provide or approve test accounts representing
+    all user roles for end-to-end testing.
 
 <!-- -->
 
@@ -1130,9 +1406,11 @@ C)  The university will provide or approve test accounts representing all user r
 
 <!-- -->
 
-A)  Scheduled backups (full and incremental) are implemented and managed by the hosting provider or university IT.
+1)  Scheduled backups (full and incremental) are implemented and managed
+    by the hosting provider or university IT.
 
-B)  System recovery plans are validated at least quarterly and include procedures for data restoration in under 2 hours.
+2)  System recovery plans are validated at least quarterly and include
+    procedures for data restoration in under 2 hours.
 
 <!-- -->
 
@@ -1140,11 +1418,13 @@ B)  System recovery plans are validated at least quarterly and include procedure
 
 <!-- -->
 
-A)  All interface text will be delivered in English (default) unless requested otherwise.
+1)  All interface text will be delivered in English (default) unless
+    requested otherwise.
 
-B)  University branding (logos, colours, font styles) will be provided to maintain consistent UI design.
+2)  University branding (logos, colours, font styles) will be provided
+    to maintain consistent UI design.
 
-> A. **[Dependencies]{.underline}**
+> A. **<u>Dependencies</u>**
 
 1.  **University Authentication System**
 
@@ -1152,7 +1432,8 @@ B)  University branding (logos, colours, font styles) will be provided to mainta
 
 - Role: Secure user login and access control
 
-- Dependency: CMS depends on this system to validate users and assign permissions; any downtime in SSO affects all user access.
+- Dependency: CMS depends on this system to validate users and assign
+  permissions; any downtime in SSO affects all user access.
 
 2.  **Financial Management System**
 
@@ -1160,31 +1441,39 @@ B)  University branding (logos, colours, font styles) will be provided to mainta
 
 - Role: Receive and respond to club budget proposals
 
-- Dependency: Budget submission workflow in CMS relies on this system for real-time approval/rejection and tracking.
+- Dependency: Budget submission workflow in CMS relies on this system
+  for real-time approval/rejection and tracking.
 
 3.  **Venue Booking System**
 
 - Type: REST API integration
 
-- Role: Submit venue reservation requests, receive confirmation or rejection
+- Role: Submit venue reservation requests, receive confirmation or
+  rejection
 
-- Dependency: CMS depends on this system to process and reflect accurate venue availability; outdated or unavailable venue data can result in double bookings or failed reservations.
+- Dependency: CMS depends on this system to process and reflect accurate
+  venue availability; outdated or unavailable venue data can result in
+  double bookings or failed reservations.
 
 4.  **University Email Server (SMTP)**
 
 - Type: SMTP server (e.g., smtp.student.mmu.edu.my)
 
-- Role: Send all automated emails (event updates, proposal status, confirmation)
+- Role: Send all automated emails (event updates, proposal status,
+  confirmation)
 
-- Dependency: Without this, users will not receive system-generated notifications, alerts, or confirmation emails.
+- Dependency: Without this, users will not receive system-generated
+  notifications, alerts, or confirmation emails.
 
 5.  **PostgreSQL Database**
 
 - Type: Relational Database
 
-- Role: Store all persistent data (users, clubs, events, proposals, reports)
+- Role: Store all persistent data (users, clubs, events, proposals,
+  reports)
 
-- Dependency: All system modules depend on this database; failure or misconfiguration will halt CMS operations.
+- Dependency: All system modules depend on this database; failure or
+  misconfiguration will halt CMS operations.
 
 6.  **Node.js Runtime**
 
@@ -1192,7 +1481,8 @@ B)  University branding (logos, colours, font styles) will be provided to mainta
 
 - Role: Executes backend logic and API endpoints
 
-- Dependency: CMS relies on Node.js to process data, communicate with other systems, and execute business logic.
+- Dependency: CMS relies on Node.js to process data, communicate with
+  other systems, and execute business logic.
 
 7.  **University Governance Policies**
 
@@ -1200,7 +1490,9 @@ B)  University branding (logos, colours, font styles) will be provided to mainta
 
 - Role: Define data handling, user access, event regulations
 
-- Dependency: CMS workflows (e.g., proposal approvals, event limits) must align with university rules; policy changes can affect functional logic.
+- Dependency: CMS workflows (e.g., proposal approvals, event limits)
+  must align with university rules; policy changes can affect functional
+  logic.
 
 8.  Deployment Infrastructure
 
@@ -1208,7 +1500,8 @@ B)  University branding (logos, colours, font styles) will be provided to mainta
 
 - Role: Host and run CMS with required resources (CPU, RAM, storage)
 
-- Dependency: Hosting platform must support TLS, scheduled tasks (cron jobs), API gateway routing, and sufficient performance.
+- Dependency: Hosting platform must support TLS, scheduled tasks (cron
+  jobs), API gateway routing, and sufficient performance.
 
 9.  Browser Standards
 
@@ -1216,7 +1509,8 @@ B)  University branding (logos, colours, font styles) will be provided to mainta
 
 - Role: Interface through which users access CMS
 
-- Dependency: CMS assumes compliance with ECMAScript and HTML5 standards; unsupported browsers may cause UI/UX issues.
+- Dependency: CMS assumes compliance with ECMAScript and HTML5
+  standards; unsupported browsers may cause UI/UX issues.
 
 10. Stakeholder Availability
 
@@ -1224,84 +1518,325 @@ B)  University branding (logos, colours, font styles) will be provided to mainta
 
 - Role: Provide input, feedback, UAT participation
 
-- Dependency: Without active participation from students, committees, and staff, requirements validation and usability testing are at risk.
+- Dependency: Without active participation from students, committees,
+  and staff, requirements validation and usability testing are at risk.
 
-> **[B. Acronyms and Abbreviations (Exhaustive List)]{.underline}**
+> **<u>B. Acronyms and Abbreviations (Exhaustive List)</u>**
 
-+--------------------------+---------------------------------------------------------------------------------------+
-| > Acronym / Abbreviation | > Full Form / Description                                                             |
-+==========================+=======================================================================================+
-| > CMS                    | > Club Management System                                                              |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > UI                     | > User Interface                                                                      |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > UX                     | > User Experience                                                                     |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > SSO                    | > Single Sign-On                                                                      |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > API                    | > Application Programming Interface                                                   |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > HTTPS                  | > Hypertext Transfer Protocol Secure                                                  |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > TLS                    | > Transport Layer Security                                                            |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > OAuth2                 | > Open Authorization 2.0 (authentication protocol)                                    |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > SMTP                   | > Simple Mail Transfer Protocol                                                       |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > REST                   | > Representational State Transfer (web service style)                                 |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > JSON                   | > JavaScript Object Notation                                                          |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > SQL                    | > Structured Query Language                                                           |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > DB                     | > Database                                                                            |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > RAM                    | > Random Access Memory                                                                |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > VM                     | > Virtual Machine                                                                     |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > QA                     | > Quality Assurance                                                                   |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > UAT                    | > User Acceptance Testing                                                             |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > FERPA                  | > Family Educational Rights and Privacy Act (or equivalent local privacy legislation) |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > GDPR                   | > General Data Protection Regulation                                                  |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > REQ                    | > Requirement (prefix used in ID numbers, e.g., REQ_U001)                             |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > Fxxx                   | > Function Code (e.g., F001: Login, F002: Register)                                   |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > MMU                    | > Multimedia University                                                               |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > CRUD                   | > Create, Read, Update, Delete (common database operations)                           |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > SRS                    | > Software Requirements Specification                                                 |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > SRS ID                 | > Unique identifier used to track requirement in SRS (e.g., REQ_P001)                 |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > HTTPS                  | > Hypertext Transfer Protocol Secure                                                  |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > AES-256                | > Advanced Encryption Standard -- 256-bit encryption                                  |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > UX Survey              | > Usability Experience Survey                                                         |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > UI/UX                  | > Combined term for user interface and user experience                                |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > DevOps                 | > Development and Operations (software delivery practice)                             |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > ESLint                 | > JavaScript code quality tool (used in development, if applicable)                   |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > SMTP                   | > Simple Mail Transfer Protocol                                                       |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > CRUD                   | > Create, Read, Update, Delete (standard operations on data)                          |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > OAuth                  | > Open Authorization protocol used for secure token-based user authentication         |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > JWT                    | > JSON Web Token (used for session management, if applicable)                         |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > CI/CD                  | > Continuous Integration / Continuous Deployment                                      |
-+--------------------------+---------------------------------------------------------------------------------------+
-| > MVC                    | > Model-View-Controller (software design pattern)                                     |
-+--------------------------+---------------------------------------------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 73%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><blockquote>
+<p>Acronym / Abbreviation</p>
+</blockquote></th>
+<th style="text-align: center;"><blockquote>
+<p>Full Form / Description</p>
+</blockquote></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><blockquote>
+<p>CMS</p>
+</blockquote></td>
+<td><blockquote>
+<p>Club Management System</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>UI</p>
+</blockquote></td>
+<td><blockquote>
+<p>User Interface</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>UX</p>
+</blockquote></td>
+<td><blockquote>
+<p>User Experience</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>SSO</p>
+</blockquote></td>
+<td><blockquote>
+<p>Single Sign-On</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>API</p>
+</blockquote></td>
+<td><blockquote>
+<p>Application Programming Interface</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>HTTPS</p>
+</blockquote></td>
+<td><blockquote>
+<p>Hypertext Transfer Protocol Secure</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>TLS</p>
+</blockquote></td>
+<td><blockquote>
+<p>Transport Layer Security</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>OAuth2</p>
+</blockquote></td>
+<td><blockquote>
+<p>Open Authorization 2.0 (authentication protocol)</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>SMTP</p>
+</blockquote></td>
+<td><blockquote>
+<p>Simple Mail Transfer Protocol</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>REST</p>
+</blockquote></td>
+<td><blockquote>
+<p>Representational State Transfer (web service style)</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>JSON</p>
+</blockquote></td>
+<td><blockquote>
+<p>JavaScript Object Notation</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>SQL</p>
+</blockquote></td>
+<td><blockquote>
+<p>Structured Query Language</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>DB</p>
+</blockquote></td>
+<td><blockquote>
+<p>Database</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>RAM</p>
+</blockquote></td>
+<td><blockquote>
+<p>Random Access Memory</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>VM</p>
+</blockquote></td>
+<td><blockquote>
+<p>Virtual Machine</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>QA</p>
+</blockquote></td>
+<td><blockquote>
+<p>Quality Assurance</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>UAT</p>
+</blockquote></td>
+<td><blockquote>
+<p>User Acceptance Testing</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>FERPA</p>
+</blockquote></td>
+<td><blockquote>
+<p>Family Educational Rights and Privacy Act (or equivalent local
+privacy legislation)</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>GDPR</p>
+</blockquote></td>
+<td><blockquote>
+<p>General Data Protection Regulation</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>REQ</p>
+</blockquote></td>
+<td><blockquote>
+<p>Requirement (prefix used in ID numbers, e.g., REQ_U001)</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>Fxxx</p>
+</blockquote></td>
+<td><blockquote>
+<p>Function Code (e.g., F001: Login, F002: Register)</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>MMU</p>
+</blockquote></td>
+<td><blockquote>
+<p>Multimedia University</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>CRUD</p>
+</blockquote></td>
+<td><blockquote>
+<p>Create, Read, Update, Delete (common database operations)</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>SRS</p>
+</blockquote></td>
+<td><blockquote>
+<p>Software Requirements Specification</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>SRS ID</p>
+</blockquote></td>
+<td><blockquote>
+<p>Unique identifier used to track requirement in SRS (e.g.,
+REQ_P001)</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>HTTPS</p>
+</blockquote></td>
+<td><blockquote>
+<p>Hypertext Transfer Protocol Secure</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>AES-256</p>
+</blockquote></td>
+<td><blockquote>
+<p>Advanced Encryption Standard – 256-bit encryption</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>UX Survey</p>
+</blockquote></td>
+<td><blockquote>
+<p>Usability Experience Survey</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>UI/UX</p>
+</blockquote></td>
+<td><blockquote>
+<p>Combined term for user interface and user experience</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>DevOps</p>
+</blockquote></td>
+<td><blockquote>
+<p>Development and Operations (software delivery practice)</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>ESLint</p>
+</blockquote></td>
+<td><blockquote>
+<p>JavaScript code quality tool (used in development, if applicable)</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>SMTP</p>
+</blockquote></td>
+<td><blockquote>
+<p>Simple Mail Transfer Protocol</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>CRUD</p>
+</blockquote></td>
+<td><blockquote>
+<p>Create, Read, Update, Delete (standard operations on data)</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>OAuth</p>
+</blockquote></td>
+<td><blockquote>
+<p>Open Authorization protocol used for secure token-based user
+authentication</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>JWT</p>
+</blockquote></td>
+<td><blockquote>
+<p>JSON Web Token (used for session management, if applicable)</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>CI/CD</p>
+</blockquote></td>
+<td><blockquote>
+<p>Continuous Integration / Continuous Deployment</p>
+</blockquote></td>
+</tr>
+<tr>
+<td><blockquote>
+<p>MVC</p>
+</blockquote></td>
+<td><blockquote>
+<p>Model-View-Controller (software design pattern)</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
